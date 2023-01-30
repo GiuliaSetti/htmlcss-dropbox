@@ -7,8 +7,8 @@
 }
 
 .debug *{
-/* 
-    outline: 1px green solid; */
+
+    outline: 1px green solid;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -20,7 +20,7 @@
 
 .container{
     width: 90%;
-    margin: 20px auto;
+    margin: 50px auto;
 }
 
 .space{
@@ -263,3 +263,54 @@
     padding: 10px 30px;
     border: dimgray 1px solid;
 }
+
+/* cards container */
+
+.inner-cards{
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row wrap;
+}
+
+.smallcard{
+    width: calc(100% / 3 - 5px);
+    height: calc(100% / 2 - 20px);
+
+    margin-top: 10px;
+
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+
+    overflow-y: auto;
+}
+
+.smallimage{
+    width: 100%;
+}
+
+.smallimage img{
+    width: 100%;
+}
+
+/* discover container */
+
+.title h3, .clients h3{
+    font-size: 40px;
+    padding: 50px 0;
+}
+
+.clients{
+    width: 90%;
+    margin: 200px auto;
+}
+
+.clients h3{
+    width: 60%;
+}
+
+.discover{
+    padding: 50px 0;
+}
+
