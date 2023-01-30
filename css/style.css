@@ -23,6 +23,11 @@
     margin: 20px auto;
 }
 
+.space{
+    padding: 10px 15px;
+}
+
+
 
 /* testo grigio */
 
@@ -151,4 +156,61 @@
 .round:active i{
     transform: scale(1.2);
     color: dodgerblue;
+}
+
+
+/* container colonne */
+
+.columns{   
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    gap: 10px;
+}
+
+.column{
+    width: calc(100% / 3);
+    padding: 10px;
+}
+
+.top{
+    padding: 8px 10px;
+    text-align: center;
+    border-bottom: darkgray 1px solid;
+}
+
+.space a{
+    padding-left: 5px;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.flexbtn{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.largebtn{
+    padding: 5px 30px;
+}
+
+.card ul{
+    list-style-type: none;
+    margin-top: 30px;
+}
+
+.card ul > li{
+    padding: 6px 0;
+}
+
+.blue-link{
+    color: blue;
+    padding: 5px 5px 5px 0;
+}
+
+.border{
+    border: darkgray solid 1px;
 }
