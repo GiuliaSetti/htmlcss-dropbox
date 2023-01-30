@@ -7,19 +7,25 @@
 .debug *{
     border: 1px green solid;
 
-    font-family: Arial, Helvetica, sans-serif;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
 
 header{
+    background-color: #b4d0e7;
     height: 600px;
-    background-color: darkseagreen;
+}
+
+button{
+    background-color: rgb(0, 92, 198);
+    color: white;
+
+    margin: 10px;
+    padding: 5px 10px;
+
+    border: transparent;
 }
 
 /* navbar */
-/* 
-nav{
-    height: 60px;
-} */
 
 #fixed-navbar{
     width: 100%;
@@ -69,65 +75,60 @@ nav{
    color: rgb(89, 89, 89);
 }
 
-.left-navbar button{
-    background-color: rgb(0, 92, 198);
-    color: white;
-
-    margin: 10px;
-    padding: 5px 10px;
-}
-
-
-
-
 
 /* header */
 
-#title-container{
-    background-color:yellowgreen;
-
-    max-width: 1100px;
-    margin-top: 30px;
-    margin-left: auto;
-    margin-right: auto;
-    height: 510px;
+#jumbotron{
+    max-width: 80%;
+    margin: 40px auto;
 
     padding: 10px;
 }
 
 .header-row{
-    background-color: lawngreen;
-
-    margin-top: 10px;
-
-    height: 380px;
+    margin: 40px 0 80px 0;
 
     display: flex;
     justify-content: center;
-    align-items: flex-end;
+    align-items: flex-start;
     flex-flow: row wrap;
-    gap: 10px;
 }
 
-#title-container h1{
-    font-size: 50px;
-    padding: 20px;
+#jumbotron h1{
+    font-size: 60px;
+
+    padding: 30px 0 0 0;
+
+    max-width: 80%;
+    margin: auto;
 }
 
 .header-paragraph{
-    background-color: forestgreen;
     width: 30%;
     height: 90%;
 }
 
-.header-image{
-    background-color: forestgreen;
-    flex-grow: 1;
-    height: 90%;
-
+.header-paragraph *{
+    padding: 10px 10px;
 }
 
+.header-image{
+    width: 50%;
+}
 
+.header-image, .header-paragraph{
+    padding: 20px 0;
+}
+
+.header-image img{
+    padding: 60px 0;
+    width: 100%;
+}
+
+#jumbotron i{
+    font-size: 30px;
+    margin-top: 20px;
+}
 
 
 /* main */
@@ -135,7 +136,7 @@ nav{
 
 .centered{
     max-width: 1000px;
-    margin: 60px auto;
+    margin: 170px auto;
 
     background-color: aquamarine;
 }
