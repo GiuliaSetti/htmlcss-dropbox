@@ -1,0 +1,283 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.debug *{
+    outline: 0.5px green solid;
+
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+header{
+    height: 600px;
+}
+
+button{
+    background-color: rgb(0, 92, 198);
+    color: white;
+
+    margin: 10px;
+    padding: 5px 10px;
+
+    border: transparent;
+}
+
+.centered{
+    max-width: 1000px;
+    margin: 170px auto;
+}
+
+/* navbar */
+
+#fixed-navbar{
+    width: 100%;
+
+    position: fixed;
+    top: 0;
+    z-index: 1;
+
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+
+    font-size: 15px;
+}
+
+.right-navbar, .left-navbar{
+    display: flex;
+    justify-content: center;
+}
+
+.logo {
+    padding: 10px;
+}
+
+.logo img{
+    width: 100px;
+}
+
+#fixed-navbar .right-list, .left-list{
+    list-style-type: none;
+    display: flex;
+
+    padding: 0 5px;
+}
+
+#fixed-navbar ul > li{
+    padding: 10px 20px;
+
+    display: inline-block;
+}
+
+#fixed-navbar li > a{
+   text-decoration: none;
+   display: inline-block;
+   
+   color: rgb(89, 89, 89);
+}
+
+
+/* header */
+
+#jumbotron{
+    padding-top: 120px;
+    background-color: #b4d0e7;
+}
+
+.title-content{
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.header-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    gap: 5px;
+}
+
+#jumbotron h1{
+    font-size: 60px;
+
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.header-paragraph{
+    max-width: 30%;
+    overflow: hidden;
+}
+
+.header-paragraph *{
+    padding: 10px 10px;
+}
+
+.header-image{
+    width: 50%;   
+
+    transform: translateY(80px);
+}
+
+.header-image img{
+    width: 100%;
+}
+
+#jumbotron i{
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+
+/* main */
+
+.container{
+    width: 90%;
+    margin: 30px auto;
+
+    padding: 10px;
+}
+
+.first{
+    height: 900px;
+}
+
+
+/* first-container */
+
+.business-plan{
+    margin: 30px 20px;
+}
+
+.business-plan *{
+    padding: 20px 10px;
+}
+
+.business-plan span{
+    color: rgb(89, 89, 89);
+}
+
+
+.content{
+    width: 100%;
+    margin: 20px;
+}
+
+.columns{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch flex-start;
+
+    gap: 10px;
+    padding: 10px;
+}
+
+.top{
+    text-align: center;
+    padding: 5px 0;
+    border-bottom: 1px solid darkgray;
+}
+
+.costs span{
+    display: block;
+}
+
+.price{
+    font-weight: bold;
+}
+
+.month{
+    color: rgb(74, 74, 74);
+}
+
+.plan-info *{
+    margin: 10px 0;
+    list-style-type: none;
+}
+
+.plan-info i{
+    padding: 5px 5px;
+}
+
+.column{
+    width: calc(100% /3);
+    padding: 10px;
+}
+
+#chose{
+    text-align: center;
+    margin-left: 40px;
+}
+
+.blue{
+    color: rgb(0, 92, 198);
+}
+
+/* sotto-colonne */
+
+
+.border{
+    border: 1px solid darkgray;
+}
+
+
+
+/* immagine e testo */
+
+.third{
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.img{
+    flex-grow: 1;
+    height: 100%;
+    background-color: seagreen;
+}
+
+.text{
+    flex-shrink: 1;
+    width: 40%;
+    height: 100%;
+    background-color: seagreen;
+}
+
+/* images - texts  */
+
+.fourth{
+    height: 700px;
+}
+
+.fourth-title{
+    font-size: 40px;
+
+}
+
+.grid{
+    background-color: darkcyan;
+
+    height: 600px;
+
+    margin-top: 20px;
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+
+.card{
+    background-color: lightseagreen;
+    width: calc(100% / 3 - 10px);
+    height: calc(100% / 2 - 10px);
+}
+
+
+
