@@ -4,6 +4,59 @@
     box-sizing: border-box;
 }
 
-/* .debug *{
+.debug *{
     border: 1px green solid;
-} */
+}
+
+
+header{
+    height: 470px;
+    background-color: darkseagreen;
+}
+
+
+/* navbar */
+
+nav{
+    height: 50px;
+}
+
+#fixed-navbar{
+
+    background-color: chartreuse;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.right-navbar, .left-navbar{
+    background-color: darkgreen;
+    width: 20%;
+    height: 100%;
+
+    display: flex;
+    justify-content: space-around;
+}
+
+#fixed-navbar .button, .logo{
+    width: 30%;
+    background-color: mediumaquamarine;
+}
+
+#fixed-navbar .right-list, .left-list{
+    width: 70%;
+    height: 100%;
+    list-style-type: none;
+    display: flex;
+}
+
+#fixed-navbar ul > li{
+    background-color: mediumseagreen;
+    width: calc(100% / 3);
+    height: 100%;
+}
+
+
+
+
+
