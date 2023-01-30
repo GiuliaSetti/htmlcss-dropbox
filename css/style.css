@@ -6,6 +6,8 @@
 
 .debug *{
     border: 1px green solid;
+
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 header{
@@ -14,45 +16,69 @@ header{
 }
 
 /* navbar */
-
+/* 
 nav{
     height: 60px;
-}
+} */
 
 #fixed-navbar{
+    width: 100%;
 
-    background-color: chartreuse;
-    height: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+
+    background-color: white;
     display: flex;
     justify-content: space-between;
+
+    font-size: 15px;
 }
 
 .right-navbar, .left-navbar{
-    background-color: darkgreen;
-    width: 20%;
-    height: 100%;
-
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
 }
 
-#fixed-navbar .button, .logo{
-    width: 30%;
-    background-color: mediumaquamarine;
+.logo {
+    padding: 10px;
+}
+
+.logo img{
+    width: 100px;
 }
 
 #fixed-navbar .right-list, .left-list{
-    width: 70%;
-    height: 100%;
     list-style-type: none;
     display: flex;
+
+    padding: 0 5px;
 }
 
 #fixed-navbar ul > li{
-    background-color: mediumseagreen;
-    width: calc(100% / 3);
-    height: 100%;
+    padding: 10px 20px;
+
+    display: inline-block;
 }
+
+#fixed-navbar li > a{
+   text-decoration: none;
+   display: inline-block;
+   
+   
+   color: rgb(89, 89, 89);
+}
+
+.left-navbar button{
+    background-color: rgb(0, 92, 198);
+    color: white;
+
+    margin: 10px;
+    padding: 5px 10px;
+}
+
+
+
 
 
 /* header */
