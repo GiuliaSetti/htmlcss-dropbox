@@ -60,13 +60,13 @@ nav{
 #title-container{
     background-color:yellowgreen;
 
-    max-width: 1200px;
+    max-width: 1100px;
     margin-top: 30px;
     margin-left: auto;
     margin-right: auto;
     height: 510px;
 
-    padding: 20px;
+    padding: 10px;
 }
 
 .header-row{
@@ -74,7 +74,7 @@ nav{
 
     margin-top: 10px;
 
-    height: 80%;
+    height: 380px;
 
     display: flex;
     justify-content: center;
@@ -88,18 +88,20 @@ nav{
     padding: 20px;
 }
 
-.header-image{
-    background-color: forestgreen;
-    width: 50%;
-    height: 90%;
-
-}
-
 .header-paragraph{
     background-color: forestgreen;
     width: 30%;
     height: 90%;
 }
+
+.header-image{
+    background-color: forestgreen;
+    flex-grow: 1;
+    height: 90%;
+
+}
+
+
 
 
 /* main */
@@ -120,11 +122,11 @@ nav{
     padding: 10px;
 }
 
-.columned{
+.first{
     height: 900px;
 }
 
-.columned-title{
+.first .title{
     background-color: turquoise;
 
     height: 150px;
@@ -152,7 +154,7 @@ nav{
 
 /* sotto-colonne */
 
-.under{
+.second{
     height: 300px;
     margin-top: 10px;
 }
@@ -169,7 +171,7 @@ nav{
 
 /* immagine e testo */
 
-.img-text{
+.third{
     height: 500px;
     display: flex;
     justify-content: center;
@@ -179,17 +181,47 @@ nav{
 .img{
     flex-grow: 1;
     height: 100%;
+    background-color: seagreen;
 }
 
 .text{
-
     flex-shrink: 1;
     width: 40%;
     height: 100%;
+    background-color: seagreen;
 }
 
 /* images - texts  */
 
+.fourth{
+    height: 700px;
+}
+
+.fourth-title{
+    font-size: 40px;
+
+}
+
+.grid{
+    background-color: darkcyan;
+
+    height: 600px;
+
+    margin-top: 20px;
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+
+.card{
+    background-color: lightseagreen;
+    width: calc(100% / 3 - 10px);
+    height: calc(100% / 2 - 10px);
+}
 
 
 
