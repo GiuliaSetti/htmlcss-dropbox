@@ -314,3 +314,39 @@
     padding: 50px 0;
 }
 
+/* logos */
+
+.large{
+    background-color: burlywood;
+}
+
+.inners{
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.inner{
+    width: calc(100% / 3);
+}
+
+.box{
+    display: flex;
+    flex-flow: row wrap;
+
+    width: 500px;
+    height: 500px;
+}
+
+.logo-img{
+    width: calc(100% / 2);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-img img{
+    width: 50%;
+}
+
+
