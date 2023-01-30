@@ -7,8 +7,8 @@
 }
 
 .debug *{
-
-    outline: 1px green solid;
+/* 
+    outline: 1px green solid; */
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -27,6 +27,9 @@
     padding: 10px 15px;
 }
 
+.border{
+    border: darkgray solid 1px;
+}
 
 
 /* testo grigio */
@@ -211,6 +214,52 @@
     padding: 5px 5px 5px 0;
 }
 
-.border{
-    border: darkgray solid 1px;
+
+/* team container */
+
+.solutions{
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.row{
+    width: 65%;
+
+    padding: 0 20px;
+}
+
+.line .card{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* image-text container main */
+
+.img-text{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.partnerimg{
+    flex-grow: 1;
+}
+
+.partner{
+    width: 70%;
+}
+
+.partner *{
+    margin: 10px 0;
+}
+
+.partnerimg img{
+    width: 100%;
+}
+
+.black{
+    background-color: transparent;
+    padding: 10px 30px;
+    border: dimgray 1px solid;
 }
