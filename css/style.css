@@ -24,7 +24,6 @@ button{
     border: transparent;
 }
 
-
 .centered{
     max-width: 1000px;
     margin: 170px auto;
@@ -75,7 +74,6 @@ button{
 #fixed-navbar li > a{
    text-decoration: none;
    display: inline-block;
-   
    
    color: rgb(89, 89, 89);
 }
@@ -136,8 +134,8 @@ button{
 /* main */
 
 .container{
-    width: 900px;
-    margin: 10px auto;
+    width: 90%;
+    margin: 30px auto;
 
     padding: 10px;
 }
@@ -146,48 +144,86 @@ button{
     height: 900px;
 }
 
-.first .business-plan{
-    background-color: turquoise;
 
-    height: 150px;
+/* first-container */
+
+.business-plan{
+    margin: 30px 20px;
 }
 
-#columns{
-    background-color: lightgreen;
-    margin-top: 10px;
-   
-    height: 700px;
+.business-plan *{
+    padding: 20px 10px;
+}
 
+.business-plan span{
+    color: rgb(89, 89, 89);
+}
+
+
+.content{
+    width: 100%;
+    margin: 20px;
+}
+
+.columns{
+    
     display: flex;
     justify-content: space-between;
     align-items: stretch flex-start;
 
     gap: 10px;
     padding: 10px;
-    
+}
+
+.top{
+    text-align: center;
+    padding: 5px 0;
+    border-bottom: 1px solid darkgray;
+}
+
+.costs span{
+    display: block;
+}
+
+.price{
+    font-weight: bold;
+}
+
+.month{
+    color: rgb(74, 74, 74);
+}
+
+.plan-info *{
+    margin: 10px 0;
+    list-style-type: none;
+}
+
+.plan-info i{
+    padding: 5px 5px;
 }
 
 .column{
     width: calc(100% /3);
-    background-color: greenyellow;
+    padding: 10px;
+}
+
+#chose{
+    text-align: center;
+    margin-left: 40px;
+}
+
+.blue{
+    color: rgb(0, 92, 198);
 }
 
 /* sotto-colonne */
 
-.second{
-    height: 300px;
-    margin-top: 10px;
-}
 
 .border{
-    background-color: greenyellow;
+    border: 1px solid darkgray;
 }
 
-.row{
-    width: 100%-20px;
-    height: 100%;
-    padding: 10px;
-}
+
 
 /* immagine e testo */
 
