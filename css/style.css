@@ -63,6 +63,10 @@ h3{
 
 /* bottoni */
 
+button{
+    cursor: pointer;
+}
+
 .blue{
     background-color:dodgerblue;
     border: transparent;
@@ -380,15 +384,32 @@ li > .fa-solid{
 }
 
 
+/* drpb company business */
+
+#companyrow{
+    background-color: #b4d0e7;
+}
 
 
+#company-inner{
+    width: 90%;
+    margin: 0 auto;
+    padding-bottom: 90px;
 
+    display: flex;
+    justify-content: space-between;
+}
 
+#company-inner h2{
+    width: 60%;
+    color: #61082b;
+    padding: 0 30px;
+}
 
-
-
-
-
+.gbtn{
+    padding: 10px 60px;
+    border: transparent;
+}
 
 
 
