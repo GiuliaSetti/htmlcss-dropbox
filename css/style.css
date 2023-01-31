@@ -23,9 +23,26 @@
     margin: 50px auto;
 }
 
-.space{
-    padding: 10px 15px;
+
+/* titoli e testo */
+
+
+
+.bold{
+    font-weight: bold;
 }
+
+h2{
+    font-size: 40px;
+    padding: 30px 0;
+}
+
+
+h3{
+    font-size: 20px;
+}
+
+
 
 .border{
     border: darkgray solid 1px;
@@ -50,6 +67,14 @@
 
 .normalbtn{
     padding: 5px 20px;
+}
+
+
+/* link */
+.blue-link{
+    color: blue;
+    padding-left: 5px;
+    padding-right: 10px;
 }
 
 
@@ -137,105 +162,94 @@
     margin-left: 20px;
 }
 
+/* /header */
 
-/* main */
 
-.container h2{
-    font-size: 40px;
-    padding:  30px 0;
+#checkboxes span, i{
+    padding-left: 10px;
+    margin: 10px 0;
 }
 
-.round{
-    display: inline-block;
-    padding: 30px 20px;
-}
+#checkboxes .lightblue:active{
 
-.round i{
-    font-size: 20px;
-    padding-right: 5px;
-    color: gray;
-}
-
-.round:active i{
-    transform: scale(1.2);
     color: dodgerblue;
+    transform: scale(1.1);
+
 }
 
-
-/* container colonne */
-
-.columns{   
+.columns{
     display: flex;
     justify-content: space-between;
     align-items: stretch;
+
     gap: 10px;
 }
 
-.column{
-    width: calc(100% / 3);
-    padding: 10px;
-}
-
 .top{
-    padding: 8px 10px;
     text-align: center;
-    border-bottom: darkgray 1px solid;
+    border-bottom: dimgray 1px solid;
 }
 
-.space a{
-    padding-left: 5px;
+.card{
+    padding: 20px 20px;
 }
 
-.bold{
-    font-weight: bold;
+.card > *{
+    margin: 30px 0;
+}
+
+.card > ul{
+    list-style-type: none;
+    font-size: 12px;
+}
+
+li > .fa-solid{
+    margin-right: 8px;
 }
 
 .flexbtn{
-   display: flex;
-   justify-content: center;
-   align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
 }
 
 .largebtn{
-    padding: 5px 30px;
+    padding: 10px 30px;
 }
 
-.card ul{
-    list-style-type: none;
-    margin-top: 30px;
+#contact-us{
+    font-weight: bold;
+    padding-bottom: 50px;
 }
 
-.card ul > li{
-    padding: 6px 0;
-}
-
-.blue-link{
-    color: blue;
-    padding: 5px 5px 5px 0;
-}
+/* cards - column and row */
 
 
-/* team container */
-
-.solutions{
-    padding-top: 50px;
-    padding-bottom: 20px;
+.flexrow{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    align-items: flex-start;
 }
 
 .row{
-    width: 65%;
-
-    padding: 0 20px;
+    width: 60%;
 }
 
-.line .card{
-    display: flex;
-    justify-content: space-between;
+.row div{
+    padding: 20px 0;
 }
+
+
+.solutions{
+    padding-top: 50px;
+}
+
 
 /* image-text container main */
 
-.img-text{
+.img-aside{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -251,7 +265,7 @@
 }
 
 .partner *{
-    margin: 10px 0;
+    margin: 30px 10px;
 }
 
 .partnerimg img{
@@ -273,10 +287,12 @@
 }
 
 .smallcard{
-    width: calc(100% / 3 - 5px);
+    width: calc(100% / 3 - 10px);
     height: calc(100% / 2 - 20px);
 
-    margin-top: 10px;
+    margin: 10px 0;
+
+    padding: 10px 10px;
 
     display: flex;
     flex-flow: column wrap;
@@ -294,12 +310,11 @@
     width: 100%;
 }
 
-/* discover container */
-
-.title h3, .clients h3{
-    font-size: 40px;
-    padding: 50px 0;
+.smalltext p{
+    margin-top: 40px;
 }
+
+/* discover clients container */
 
 .clients{
     width: 90%;
@@ -314,39 +329,38 @@
     padding: 50px 0;
 }
 
+
 /* logos */
 
-.large{
-    background-color: burlywood;
+#featured{
+    display: flex;
 }
 
-.inners{
+#featured .side{
+    width: calc(100vw / 3);
+    height: calc(100vw / 3);
+
     display: flex;
     flex-flow: row wrap;
 }
 
-.inner{
-    width: calc(100% / 3);
+.center{
+    flex-grow: 1;
 }
 
-.box{
-    display: flex;
-    flex-flow: row wrap;
-
-    width: 500px;
-    height: 500px;
-}
-
-.logo-img{
-    width: calc(100% / 2);
-
+.square {
+    width: 50%;
+    height: 50%;
+    
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.logo-img img{
+
+.square img{  
     width: 50%;
 }
 
 
+/* colore quadrati */
