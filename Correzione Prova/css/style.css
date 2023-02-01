@@ -31,10 +31,9 @@ h1{
     font-size: 70px;
 }
 
-
-
-
-
+h2{
+    font-size: 35px;
+}
 
 
 /* bottoni */
@@ -49,6 +48,13 @@ h1{
     padding: 5px 10px;
     border: transparent;
 }
+
+
+.largebtn{
+    width: 200px;
+    padding: 10px 15px;
+}
+
 
 /* liste */
 
@@ -65,18 +71,24 @@ ul{
 }
 
 
+.bold{
+    display: block;
+    font-weight: bold;
+}
+
+.blue-link{
+    color: blue;
+    font-size: 16px;
+    padding: 0 10px;
+}
 
 
+.divisor{
+    width: 100px;
+    color: dimgray;
 
-
-
-
-
-
-
-
-
-
+    margin-top: 20px;
+}
 
 
 /* navbar_______________________________________ */
@@ -181,3 +193,135 @@ ul{
 
 
 /* //////////////////////// */
+
+
+/* main_________________ */
+
+/* business plans */
+
+#business{
+    padding-top: 200px;
+}
+
+#checkboxes{
+    padding: 40px 0;
+}
+
+#checkboxes i{
+    padding-right: 10px;
+}
+
+#checkboxes i:active{
+    color: dodgerblue;
+}
+
+
+/* piani - colonne_______ */
+
+#b-plans{
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    gap: 5px;
+}
+
+.top{
+    text-align: center;
+    padding: 5px;
+    border-bottom: 1px solid dimgray;
+}
+
+.plan{
+    border: 1px solid dimgray;
+    margin-top: 30px;
+}
+
+.plan-description{
+    margin: 30px 10px;
+}
+
+.plan-description div{
+    padding: 30px 0;
+}
+
+.plan-description span{
+    margin: 20px 0;
+}
+
+.plan-lists li{
+    padding: 10px 0;
+
+    font-size: 12px;
+}
+
+.plan-lists i{
+    padding-right: 8px;
+}
+
+.flexbtn{
+    display: flex;
+    justify-content: center;
+}
+
+
+/* ////////////////// */
+
+
+/* business row */
+
+#b-line{
+    padding: 0 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#line-right{
+    width: 70%;
+    padding-top: 30px;
+}
+
+.solutions{
+    padding-top: 60px;
+}
+
+/* ///////////////// */
+
+/* ///////////////// */
+
+/* img-text */
+
+
+#partner-inner{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+#partner-text{
+    width: 100%;
+
+    padding: 40px 10px;
+}
+
+#partner-inner img{
+    width: 100%;
+}
+
+#partner-text > h3{
+    padding: 20px 0;
+}
+
+#partner-text p{
+    padding: 20px 0;
+}
+
+#partner-text div{
+    padding: 20px 0;
+}
+
+.black{
+    background-color: transparent;
+    border: 1px dimgray solid;
+}
+
+/* ///////////// */
