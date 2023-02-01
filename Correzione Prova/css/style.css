@@ -10,6 +10,33 @@
 }
 
 
+.centered{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+
+.container{
+    width: 90%;
+    margin: 0 auto;
+
+    padding-top: 100px;
+}
+
+
+
+/* titoli */
+
+h1{
+    font-size: 70px;
+}
+
+
+
+
+
+
+
 /* bottoni */
 
 .blue{
@@ -107,3 +134,50 @@ ul{
 
 /* ////////////////////////////////// */
 
+
+/* jumbotron__________________________*/
+
+#jumbotron{
+    background-color: #b4d0e7;
+}
+
+.jumboinner{
+    padding-top: 180px;
+}
+
+#flexed-jumbo{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+#jumbo-text{
+    width: 100%;
+}
+
+.text{
+    padding: 60px 0;
+}
+
+#jumbo-img{
+    flex-grow: 1;
+    transform: translateY(120px);
+}
+
+#jumbo-img img{
+    width: 100%;
+}
+
+#jumbobtn{
+    margin-bottom: 20px;
+    padding: 5px 20px;
+}
+
+#jumbo-text i{
+    font-size: 50px;
+    margin-top: 60px;
+    color: black;
+}
+
+
+/* //////////////////////// */
