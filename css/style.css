@@ -7,9 +7,9 @@
 }
 
 .debug *{
-/* 
-    outline: 1px green solid; */
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    outline: 1px green solid;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .centered{
@@ -32,11 +32,12 @@ ul{
     list-style-type: none;
 }
 
-/* titoli e testo */
-
 .jumbotron{
     padding-top: 150px;
 }
+
+/* titoli e testo */
+
 
 .bold{
     font-weight: bold;
@@ -81,7 +82,7 @@ button{
 }
 
 .normalbtn{
-    padding: 5px 20px;
+    padding: 7px 15px;
 }
 
 
@@ -109,24 +110,42 @@ button{
 
     font-size: 15px;
 
-    box-shadow: 0 2px 4px rgba(128, 128, 128, 0.461);
+    box-shadow: 0 2px 4px rgba(128, 128, 128, 0.4);
 }
 
-#fixed-navbar *{
-    padding: 5px 5px;
-}
 
 .right, .left{
     display: flex;
     justify-content: center;
     align-items: center;
+
+    padding-top: 30px;
+    
 }
 
 .list{
-
+    height: 100%;
     display: flex;
     justify-content: center;
+    padding: 0 10px;
+}
 
+.list > li{
+    padding: 0 10px;
+    margin: 0 5px;
+}
+
+
+
+#fixed-navbar li:hover{
+    border-bottom: 2px solid gray;
+    background-color: rgba(211, 211, 211, 0.1);
+}
+
+.logo, .btnstart{
+    padding-bottom: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .logo img{
@@ -146,8 +165,10 @@ button{
 }
 
 .jheader{
+    padding-top: 30px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     gap: 10px;
 }
 
@@ -161,16 +182,17 @@ button{
 
 .image{
     flex-grow: 1;
-    transform: translateY(80px);
+    transform: translateY(100px);
 }
 
 .image img{
-    padding-top: 30px;
     width: 100%;  
-
+    display: block;
 }
 
 .icon i{
+
+    color: black;
     font-size: 50px;
     margin-top: 80px;
 
@@ -235,10 +257,10 @@ li > .fa-solid{
     padding: 10px 30px;
 }
 
-#contact-us{
+/* #contact-us{
     font-weight: bold;
     padding-bottom: 50px;
-}
+} */
 
 /* cards - column and row */
 
@@ -315,8 +337,6 @@ li > .fa-solid{
     flex-flow: column wrap;
     align-items: center;
     justify-content: center;
-
-    overflow-y: auto;
 }
 
 .smallimage{
@@ -402,17 +422,16 @@ li > .fa-solid{
 }
 
 
-#company-inner{
-    width: 90%;
-    margin: 0 auto;
+.company-inner{
 
     padding: 150px 0;
 
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
-#company-inner h2{
+.company-inner h2{
     width: 60%;
     color: #61082b;
     padding: 0 30px;
@@ -425,6 +444,10 @@ li > .fa-solid{
 
 
 /* colore quadrati */
+
+.square:hover{
+    border: 10px solid rgba(255, 255, 255, 0.3);
+}
 
 
 #design{
@@ -472,12 +495,44 @@ li > .fa-solid{
     position: relative;
 }
 
-#faq .fa-solid{
+.faq-content p{
+    padding: 20px 0;
+}
+
+
+.faq-content .fa-solid{
     position: absolute;
 
     top: 50px;
     right: 10px;
+    cursor: pointer;
 }
+
+.faq-content #dw{ 
+    display: block;
+}
+
+.faq-content #su{
+    display: none;
+}
+
+.faq-content:hover #dw{
+    display: none;
+}
+
+.faq-content:hover #su{
+    display: block;
+}
+
+.faq-text{
+    display: none;
+}
+
+.faq-content:hover .faq-text{
+    display: block;
+}
+
+
 
 /* footer */
 
