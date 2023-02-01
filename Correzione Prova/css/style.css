@@ -448,3 +448,69 @@ ul{
 }
 
 /* /////////////////////////// */
+
+/* colored row */
+
+.featured-row{
+    background-color: #b4d0e7;
+}
+
+#company{
+    display: flex;
+    justify-content: space-between;
+
+    padding-bottom: 100px;
+}
+
+.red{
+    width: 60%;
+    color: #61082b;
+}
+
+.gbtn{
+    background-color: white;
+    padding: 10px 50px;
+}
+
+/* //////////////////// */
+
+/* faq content */
+
+
+#faq{
+    padding-bottom: 100px;
+}
+
+#faq h2, #faq div{
+    padding: 30px 0;  
+    border-bottom: 1px solid dimgray;
+
+    position: relative;
+}
+
+#faq p{
+    padding-top: 30px;
+}
+
+#faq .fa-solid{
+    position:absolute;
+
+    top:30px;
+    right: 0;
+
+    cursor: pointer;
+}
+
+#faq .faq-content #su, #faq .faq-content p{
+    display: none;
+}
+
+#faq .faq-content:hover #su, #faq .faq-content:hover p{
+    display: block;
+}
+
+#faq .faq-content:hover #dw{
+    display: none;
+}
+
+/* ////////////////////// */
