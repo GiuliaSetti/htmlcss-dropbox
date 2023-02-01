@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.debug *{
+    /* outline: 1px solid saddlebrown; */
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+/* bottoni */
+
+.blue{
+    background-color: dodgerblue;
+    border: transparent;
+    color: white;
+}
+
+.normalbtn{
+    padding: 5px 10px;
+    border: transparent;
+}
+
+/* liste */
+
+
+ul{
+    list-style-type: none;
+}
+
+
+/* classi generali */
+
+.gray{
+    color:rgb(50, 50, 50);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* navbar_______________________________________ */
+
+#fixed-navbar{
+    width: 100%;
+
+    background-color: white;
+
+    font-size: 15px;
+    
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
+
+    position: fixed;
+    top: 0;
+
+    z-index: 1;
+}
+
+#fx-right, #fx-left{
+    display: flex; 
+ 
+}
+
+#fx-logo, #fx-button{
+    padding: 20px 20px;
+}
+
+#fx-logo img{
+    display: block;
+    width: 150px;
+}
+
+.list{
+    display: flex;
+
+    padding-top: 25px;
+
+    
+    overflow: hidden;
+}
+
+
+.list a{
+    padding: 20px 30px;
+    text-decoration: none;
+
+}
+
+.list a:hover{
+    border-bottom: 5px solid rgba(0, 0, 0, 0.2);
+}
+
+/* ////////////////////////////////// */
+
