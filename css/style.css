@@ -99,58 +99,51 @@ button{
 
 #fixed-navbar{
     width: 100%;
+
     background-color: white;
 
-    position: fixed;
-    top: 0;
-    z-index: 1;
-
+    font-size: 15px;
+    
     display: flex;
     justify-content: space-between;
 
-    font-size: 15px;
+    position: fixed;
+    top: 0;
 
-    box-shadow: 0 2px 4px rgba(128, 128, 128, 0.4);
+    z-index: 1;
 }
 
+#fx-right, #fx-left{
+    display: flex; 
+}
 
-.right, .left{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+#fx-logo, #fx-button{
+    padding: 20px 20px;
+}
 
-    padding-top: 30px;
-    
+#fx-logo img{
+    display: block;
+    width: 150px;
 }
 
 .list{
-    height: 100%;
     display: flex;
-    justify-content: center;
-    padding: 0 10px;
+    padding-top: 25px;
 }
 
-.list > li{
-    padding: 0 10px;
-    margin: 0 5px;
+.list a{
+    padding: 20px 30px;
+    text-decoration: none;
 }
 
-
-
-#fixed-navbar li:hover{
-    border-bottom: 2px solid gray;
-    background-color: rgba(211, 211, 211, 0.1);
+.list a:hover{
+    border-bottom: 5px solid rgba(0, 0, 0, 0.2);
 }
 
-.logo, .btnstart{
-    padding-bottom: 30px;
-    padding-left: 10px;
-    padding-right: 10px;
+#fxbtn{
+    padding: 5px 20px;
 }
 
-.logo img{
-    width: 150px;
-}
 
 /* header */
 
